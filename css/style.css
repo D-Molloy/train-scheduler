@@ -1,0 +1,26 @@
+body {
+	background: url(../assets/circles-and-roundabouts.png);
+	background-attachment: fixed;
+}
+
+.jumbotron {
+	margin-top: 2%;
+	background-image: url("../assets/hogwarts.png");
+	background-width: 100%;
+	background-size: cover;
+	background-position: center; 
+}
+
+.jumbotron h1 i {
+	font-size: 1.5em;
+}
+
+.jumbotron h1 i,
+.jumbotron p {
+	color: white;
+	text-shadow:
+		-2px -2px 0 #000,  
+		2px -2px 0 #000,
+		-2px 2px 0 #000,
+		2px 2px 0 #000;
+}

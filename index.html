@@ -3,6 +3,9 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Train-Link</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Favicon -->
+		<link rel="shortcut icon" type="img/jpg" href="assets/train.jpg">
 		<!-- link to CSS -->
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<!-- Added a link to Bootstrap-->
@@ -11,32 +14,27 @@
 		<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
 		<!-- jQuery -->
 		<script src="https://code.jquery.com/jquery.js"></script>
-		<!-- Link to Moment.js should go here -->
+		<!-- Link to Moment.js -->
 		<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 		
 	</head>
 	<body>
-		<!-- create a jumbo-tron to hold the title and description -->
 		<div class="container">
-			<div class="header clearfix">
-			</div>
-			<!-- style="background:blue !important" -->
-			<div class="jumbotron text-center top-buffer bg-primary text-white ">
-				<!-- <h1>Employee Data Management</h1>-->
-				<h1 class="display-3">Train-Link</h1>
+			<!-- jumbotron -->
+			<div class="jumbotron text-center top-buffer bg-primary">
+				<h1 class="display-3"><i>Train-Link</i></h1>
 				<br>
 				<div>
-					<!-- <h2>A Comprehensive Directory of Employee Billable Hours</h2> -->
-					<p class="lead"> Train information to get you from A to B</p>
+					<p class="lead">Getting you to your destination on time.</p>
 				</div>
 			</div>
-			<!-- create row and col-12 to hold the panel table form -->
+			<!-- panel for the  table-->
 			<div class="row top-buffer">
 				<div class="col-md-12">
 					<div class="panel panel-default panel-primary">
 						<!-- Default panel contents -->
 						<div class="panel-heading">
-							<b class="bg-primary text-white">Current Train Schedule</b>
+							<b class="panel-title">My Train Schedule</b>
 						</div>
 						<div class="panel-body">
 							<!-- Table -->
@@ -53,15 +51,14 @@
 					</div>
 				</div>
 			</div>
-			<!-- create second row -->
+			<!-- panel for the Add A Train form -->
 			<div class="row top-buffer">
 				<div class="col-md-12">
 					<div class="panel panel-default panel-primary">
 						<div class="panel-heading">
-							<h3 class="panel-title">Add Train</h3>
+							<b class="panel-title">Add A Train</b>
 						</div>
 						<div class="panel-body">
-							<!-- Sign-up Form (note the various input "types")-->
 							<form role="form">
 								<div class="form-group">
 									<label for="name-input">Train Name</label>
@@ -86,7 +83,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- js for the game -->
+		<!-- link to JS -->
 		<script src="javascript/app.js" type="text/javascript"></script>
 	</body>
 </html>
