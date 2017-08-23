@@ -1,5 +1,5 @@
 # train-scheduler
-Train Scheduler (Politi-GIF)
+Train Scheduler
 
 Assignment #7 - due 8/07/17 - HTML/CSS/JS/JQuery/Bootstrap/Firebase/Moment.js
 
